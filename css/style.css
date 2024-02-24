@@ -1,0 +1,55 @@
+.name {
+    width: 31.33%;
+    font-size: 15px;
+    font-family: verdana;
+    padding: 3px 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+.email {
+    width: 31.33%;
+    font-size: 15px;
+    font-family: verdana;
+    padding: 3px 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+.phone {
+    width: 31.33%;
+    font-size: 15px;
+    font-family: verdana;
+    padding: 3px 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+.ssn {
+    width: 31.33%;
+    font-size: 15px;
+    font-family: verdana;
+    padding: 3px 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+
+.dob {
+    width: 31.33%;
+    font-size: 15px;
+    font-family: verdana;
+    padding: 3px 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  

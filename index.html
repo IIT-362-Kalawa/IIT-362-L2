@@ -1,17 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" class="nojs">
-<head>
-  <title>Lab 2</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="css/reset.css" />
-  <link rel="stylesheet" media="screen" href="css/style.css" />
-</head>
-<body>
-  <form method="get" action="#null" autocomplete="off">
-  <h1>Sign Up For More Information!</h1>
-    <h3>Enter Your Name</h3>
-    <input>
-  </form>
-</body>
+<html lang="en">
+  <head>
+    <title>Lab 2</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no">
+    <link rel="stylesheet" media="screen" href="css/reset.css">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+  </head>
+  <body>
+    <h1>Sign Up For More Information!</h1>
+      <form method="get" action="#null" autocomplete="off">
+        <label for="name">Name:</label>
+        <input type="name" class="name" name="name" required autocomplete="name">
+        <label for="email">Email:</label>
+        <input type="email" class="email" name="email" required autocomplete="email">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" class="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required autocomplete="tel">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" class="dob" name="dob" required autocomplete="bday">
+        <label for="ssn">Social Security Number:</label>
+        <input type="text" class="ssn" name="ssn" pattern="\d{3}-\d{2}-\d{4}" required autocomplete="off">
+        <button type="submit">Submit</button>
+     </form>
+  </body>
 </html>
